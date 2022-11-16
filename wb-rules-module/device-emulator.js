@@ -216,6 +216,8 @@ function createControlIsNotExists(deviceName, entity, index) {
     if (!itemIsExists(session.controls, topic)) {
         meta = genControlMeta(entity, topicName)
         createControl(topic, meta)
+
+        translateValueInit(topic)
     }
 }
 
@@ -307,6 +309,11 @@ function publishWbValue(deviceName, controlName, newValue) {
     publishValue(topic, newValue)
 };
 
+function translateValueInit(topic) {
+    trackMqtt(topic + "/on", function (message) {
+        publishValue(message.topic.replace('/on', ''), message.value)
+    });
+}
 // Calculate functions
 function map3eInit(mapName) {
     defineRule({
