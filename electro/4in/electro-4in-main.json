@@ -220,7 +220,7 @@
     "read": {
       "enable": true,
       "channel": "wb-map3e-1/Urms L1",
-      "value": "val"
+      "value": "val.toFixed(2)"
     },
     "write": {
       "enable": false,
@@ -247,7 +247,7 @@
     "read": {
       "enable": true,
       "channel": "wb-map3e-1/Irms L1",
-      "value": "val"
+      "value": "val.toFixed(2)"
     },
     "write": {
       "enable": false,
@@ -274,7 +274,7 @@
     "read": {
       "enable": true,
       "channel": "wb-map3e-1/Urms L2",
-      "value": "val"
+      "value": "val.toFixed(2)"
     },
     "write": {
       "enable": false,
@@ -301,7 +301,7 @@
     "read": {
       "enable": true,
       "channel": "wb-map3e-1/Irms L2",
-      "value": "val"
+      "value": "val.toFixed(2)"
     },
     "write": {
       "enable": false,
@@ -328,7 +328,7 @@
     "read": {
       "enable": true,
       "channel": "wb-map3e-1/Urms L3",
-      "value": "val"
+      "value": "val.toFixed(2)"
     },
     "write": {
       "enable": false,
@@ -355,7 +355,7 @@
     "read": {
       "enable": true,
       "channel": "wb-map3e-1/Ipeak L3",
-      "value": "val"
+      "value": "val.toFixed(2)"
     },
     "write": {
       "enable": false,
