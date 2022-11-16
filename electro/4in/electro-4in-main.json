@@ -1,0 +1,434 @@
+[
+  {
+    "id": "f184670056a2",
+    "read": {
+      "enable": true,
+      "channel": "hwmon/CPU Temperature",
+      "value": "val"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f18468207090",
+    "read": {
+      "enable": true,
+      "channel": "power_status/Vin",
+      "value": "val.toFixed(2)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1847a7c2e25",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-1/Urms L1",
+      "value": "val.toFixed(2)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1847a7c9b7e",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-1/Irms L1",
+      "value": "val.toFixed(2)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1847a7ccf2f",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-1/Urms L2",
+      "value": "val.toFixed(2)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1847a7d089d",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-1/Irms L2",
+      "value": "val.toFixed(2)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1847a7d630a",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-1/Urms L3",
+      "value": "val.toFixed(2)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1847a7d9766",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-1/Irms L3",
+      "value": "val.toFixed(2)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1847ad57eeb",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-1/Urms L1",
+      "value": "val"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1847ad5add7",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-1/Irms L1",
+      "value": "val"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1847ad5f61f",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-1/Urms L2",
+      "value": "val"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1847ad69636",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-1/Irms L2",
+      "value": "val"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1847ad6bc5a",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-1/Urms L3",
+      "value": "val"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1847ad6fa7a",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-1/Ipeak L3",
+      "value": "val"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1847af96b37",
+    "read": {
+      "enable": true,
+      "channel": "el-srv-dev/wb-map3e-1 AP Energy",
+      "value": "val.toFixed(3)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1847afa026c",
+    "read": {
+      "enable": true,
+      "channel": "el-srv-dev/wb-map3e-1 P",
+      "value": "(val/1000).toFixed(2)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  }
+]
