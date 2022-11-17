@@ -130,7 +130,7 @@ function initEmulators(deviceName, emulators) {
 
     setInterval(function () {
         emulatorsAction()
-    }, 1000);
+    }, 2000);
 }
 
 function initEmulator(deviceName, emulator) {
