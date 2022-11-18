@@ -484,5 +484,167 @@
       "channel": null,
       "value": null
     }
+  },
+  {
+    "id": "f1848a25acdc",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 1",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 1",
+      "value": "(val) ? ';fill: #a6a6a6ff' : ';fill: transparent'"
+    }
+  },
+  {
+    "id": "f1848a2654d9",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 2",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 2",
+      "value": "(val) ? ';fill: #a6a6a6ff' : ';fill: transparent'"
+    }
+  },
+  {
+    "id": "f1848a2d0bb1",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 3",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 3",
+      "value": "(val) ? ';fill: #a6a6a6ff' : ';fill: transparent'"
+    }
+  },
+  {
+    "id": "f184801506a4",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 4",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 4",
+      "value": "(val) ? ';fill: #a6a6a6ff' : ';fill: transparent'"
+    }
+  },
+  {
+    "id": "f1848a2e2bbf",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 5",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 5",
+      "value": "(val) ? ';fill: #a6a6a6ff' : ';fill: transparent'"
+    }
+  },
+  {
+    "id": "f1848a2e807e",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 6",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 6",
+      "value": "(val) ? ';fill: #a6a6a6ff' : ';fill: transparent'"
+    }
   }
 ]
