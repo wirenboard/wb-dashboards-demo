@@ -7,7 +7,7 @@ templates = [
             { "name": "VOC", "type": "value", "units": "ppb" },
             { "name": "CO2", "type": "value", "units": "ppm" },
             { "name": "Noise", "type": "value", "units": "dbA" },
-            { "name": "Illumination", "type": "value", "units": "lux" },
+            { "name": "Illuminance", "type": "value", "units": "lux" },
             { "name": "LED Green", "type": "switch", "readonly": false },
             { "name": "LED Red", "type": "switch", "readonly": false },
             { "name": "Buzzer", "type": "switch", "readonly": false },
@@ -15,6 +15,13 @@ templates = [
     },
     {
         "type": "WB-RM6C",
+        "entities": [
+            { "name": "K {}", "type": "switch", "readonly": false, "count": 6 },
+            { "name": "Input {}", "type": "switch", "readonly": true, "count": 6 },
+        ]
+    },
+    {
+        "type": "WB-MR6C",
         "entities": [
             { "name": "K {}", "type": "switch", "readonly": false, "count": 6 },
             { "name": "Input {}", "type": "switch", "readonly": true, "count": 6 },
@@ -129,7 +136,7 @@ function initEmulators(deviceName, emulators) {
     });
 
     setInterval(function () {
-        emulatorsAction()
+        emulatorsAction() // с таймером надо доработать — не соблюдает интервалы.
     }, 2000);
 }
 
