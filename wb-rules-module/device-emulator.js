@@ -7,7 +7,7 @@ templates = [
             { "name": "VOC", "type": "value", "units": "ppb" },
             { "name": "CO2", "type": "value", "units": "ppm" },
             { "name": "Noise", "type": "value", "units": "dbA" },
-            { "name": "Illumination", "type": "value", "units": "lux" },
+            { "name": "Illuminance", "type": "value", "units": "lux" },
             { "name": "LED Green", "type": "switch", "readonly": false },
             { "name": "LED Red", "type": "switch", "readonly": false },
             { "name": "Buzzer", "type": "switch", "readonly": false },
@@ -15,6 +15,13 @@ templates = [
     },
     {
         "type": "WB-RM6C",
+        "entities": [
+            { "name": "K {}", "type": "switch", "readonly": false, "count": 6 },
+            { "name": "Input {}", "type": "switch", "readonly": true, "count": 6 },
+        ]
+    },
+    {
+        "type": "WB-MR6C",
         "entities": [
             { "name": "K {}", "type": "switch", "readonly": false, "count": 6 },
             { "name": "Input {}", "type": "switch", "readonly": true, "count": 6 },
@@ -129,8 +136,8 @@ function initEmulators(deviceName, emulators) {
     });
 
     setInterval(function () {
-        emulatorsAction()
-    }, 1000);
+        emulatorsAction() // с таймером надо доработать — не соблюдает интервалы.
+    }, 2000);
 }
 
 function initEmulator(deviceName, emulator) {
@@ -216,6 +223,8 @@ function createControlIsNotExists(deviceName, entity, index) {
     if (!itemIsExists(session.controls, topic)) {
         meta = genControlMeta(entity, topicName)
         createControl(topic, meta)
+
+        translateValueInit(topic)
     }
 }
 
@@ -307,6 +316,11 @@ function publishWbValue(deviceName, controlName, newValue) {
     publishValue(topic, newValue)
 };
 
+function translateValueInit(topic) {
+    trackMqtt(topic + "/on", function (message) {
+        publishValue(message.topic.replace('/on', ''), message.value)
+    });
+}
 // Calculate functions
 function map3eInit(mapName) {
     defineRule({

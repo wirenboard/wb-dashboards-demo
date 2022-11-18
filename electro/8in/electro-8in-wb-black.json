@@ -1,415 +1,10 @@
 [
   {
-    "id": "f184670056a2",
-    "read": {
-      "enable": true,
-      "channel": "hwmon/CPU Temperature",
-      "value": "val"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f18468207090",
-    "read": {
-      "enable": true,
-      "channel": "power_status/Vin",
-      "value": "val.toFixed(2)"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1847a7c2e25",
-    "read": {
-      "enable": true,
-      "channel": "wb-map3e-1/Urms L1",
-      "value": "val.toFixed(2)"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1847a7c9b7e",
-    "read": {
-      "enable": true,
-      "channel": "wb-map3e-1/Irms L1",
-      "value": "val.toFixed(2)"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1847a7ccf2f",
-    "read": {
-      "enable": true,
-      "channel": "wb-map3e-1/Urms L2",
-      "value": "val.toFixed(2)"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1847a7d089d",
-    "read": {
-      "enable": true,
-      "channel": "wb-map3e-1/Irms L2",
-      "value": "val.toFixed(2)"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1847a7d630a",
-    "read": {
-      "enable": true,
-      "channel": "wb-map3e-1/Urms L3",
-      "value": "val.toFixed(2)"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1847a7d9766",
-    "read": {
-      "enable": true,
-      "channel": "wb-map3e-1/Irms L3",
-      "value": "val.toFixed(2)"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1847ad57eeb",
-    "read": {
-      "enable": true,
-      "channel": "wb-map3e-1/Urms L1",
-      "value": "val.toFixed(2)"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1847ad5add7",
-    "read": {
-      "enable": true,
-      "channel": "wb-map3e-1/Irms L1",
-      "value": "val.toFixed(2)"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1847ad5f61f",
-    "read": {
-      "enable": true,
-      "channel": "wb-map3e-1/Urms L2",
-      "value": "val.toFixed(2)"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1847ad69636",
-    "read": {
-      "enable": true,
-      "channel": "wb-map3e-1/Irms L2",
-      "value": "val.toFixed(2)"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1847ad6bc5a",
-    "read": {
-      "enable": true,
-      "channel": "wb-map3e-1/Urms L3",
-      "value": "val.toFixed(2)"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1847ad6fa7a",
-    "read": {
-      "enable": true,
-      "channel": "wb-map3e-1/Ipeak L3",
-      "value": "val.toFixed(2)"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1847af96b37",
-    "read": {
-      "enable": true,
-      "channel": "el-srv-dev/wb-map3e-1 AP Energy",
-      "value": "val.toFixed(3)"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1847afa026c",
+    "id": "f18480fa26c4",
     "read": {
       "enable": true,
       "channel": "el-srv-dev/wb-map3e-1 P",
-      "value": "(val/1000).toFixed(2)"
+      "value": "(val/1000).toFixed(1)"
     },
     "write": {
       "enable": false,
@@ -429,6 +24,600 @@
       "enable": false,
       "channel": null,
       "value": null
+    }
+  },
+  {
+    "id": "f18480fad791",
+    "read": {
+      "enable": true,
+      "channel": "el-srv-dev/wb-map3e-1 S",
+      "value": "(val/1000).toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f18480fb2539",
+    "read": {
+      "enable": true,
+      "channel": "el-srv-dev/wb-map3e-2 P",
+      "value": "(val/1000).toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f18480fb5af5",
+    "read": {
+      "enable": true,
+      "channel": "el-srv-dev/wb-map3e-2 S",
+      "value": "(val/1000).toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f18480fb9ca8",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-1/Urms L1",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f18480fed0ff",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-1/Urms L2",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f18480ff28b3",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-1/Urms L3",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f18480ff82c7",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-1/Irms L1",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f18480fff439",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-1/Irms L2",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f184810015ac",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-1/Irms L3",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1848100a06f",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-2/Urms L1",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1848100a638",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-2/Urms L2",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1848100a7ff",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-2/Urms L3",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f18481017db3",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-2/Irms L1",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1848101ccfe",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-2/Irms L2",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f184810240e4",
+    "read": {
+      "enable": true,
+      "channel": "wb-map3e-2/Irms L3",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1848102a006",
+    "read": {
+      "enable": true,
+      "channel": "el-srv-dev/wb-map3e S1-2",
+      "value": "(val/1000).toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f184810ae73d",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 1",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 1",
+      "value": "(val) ? ';fill: #a6a6a6ff' : ';fill: transparent'"
+    }
+  },
+  {
+    "id": "f1848131d98c",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 2",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 2",
+      "value": "(val) ? ';fill: #a6a6a6ff' : ';fill: transparent'"
+    }
+  },
+  {
+    "id": "f184813289b1",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 4",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 4",
+      "value": "(val) ? ';fill: #a6a6a6ff' : ';fill: transparent'"
+    }
+  },
+  {
+    "id": "f184813265bb",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 3",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 3",
+      "value": "(val) ? ';fill: #a6a6a6ff' : ';fill: transparent'"
+    }
+  },
+  {
+    "id": "f1848132ebbe",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 5",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 5",
+      "value": "(val) ? ';fill: #a6a6a6ff' : ';fill: transparent'"
+    }
+  },
+  {
+    "id": "f1848133f0f2",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 6",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 6",
+      "value": "(val) ? ';fill: #a6a6a6ff' : ';fill: transparent'"
     }
   }
 ]
