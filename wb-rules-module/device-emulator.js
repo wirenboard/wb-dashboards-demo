@@ -333,7 +333,7 @@ function map3eInit(mapName) {
     defineRule({
         whenChanged: [mapName + "/Irms L1"],
         then: function (newValue, devName, cellName) {
-            publishWbValue(devName, "Ipeak L1", 12) //(newValue * (1 + 0.5)).toFixed(2)
+            publishWbValue(devName, "Ipeak L1", (newValue * (1 + 0.2)).toFixed(2)) //(newValue * (1 + 0.5)).toFixed(2)
 
             var SL1 = (newValue * dev[devName]["Urms L1"]).toFixed(2)
             publishWbValue(devName, "S L1", SL1)
@@ -357,7 +357,7 @@ function map3eInit(mapName) {
     defineRule({
         whenChanged: [mapName + "/Urms L2"],
         then: function (newValue, devName, cellName) {
-            publishWbValue(devName, "Upeak L2", (newValue * (1 + 0.5)).toFixed(2))
+            publishWbValue(devName, "Upeak L2", (newValue * (1 + 0.3)).toFixed(2))
         }
     });
 
@@ -371,7 +371,7 @@ function map3eInit(mapName) {
     defineRule({
         whenChanged: [mapName + "/Irms L2"],
         then: function (newValue, devName, cellName) {
-            publishWbValue(devName, "Ipeak L2", (newValue * (1 + 0.5)).toFixed(2))
+            publishWbValue(devName, "Ipeak L2", (newValue * (1 + 0.2)).toFixed(2))
 
             var SL2 = (newValue * dev[devName]["Urms L2"]).toFixed(2)
             publishWbValue(devName, "S L2", SL2)
@@ -395,14 +395,14 @@ function map3eInit(mapName) {
     defineRule({
         whenChanged: [mapName + "/Urms L3"],
         then: function (newValue, devName, cellName) {
-            publishWbValue(devName, "Upeak L3", (newValue * (1 + 0.5)).toFixed(2))
+            publishWbValue(devName, "Upeak L3", (newValue * (1 + 0.3)).toFixed(2))
         }
     });
 
     defineRule({
         whenChanged: [mapName + "/Irms L3"],
         then: function (newValue, devName, cellName) {
-            publishWbValue(devName, "Ipeak L3", (newValue * (1 + 0.5)).toFixed(2))
+            publishWbValue(devName, "Ipeak L3", (newValue * (1 + 0.3)).toFixed(2))
 
             var SL3 = (newValue * dev[devName]["Urms L3"]).toFixed(2)
             publishWbValue(devName, "S L3", SL3)
