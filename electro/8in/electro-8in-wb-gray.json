@@ -509,7 +509,7 @@
     "style": {
       "enable": true,
       "channel": "wb-rm6c-3/K 1",
-      "value": "(val) ? ';fill: #a6a6a6ff' : ';fill: transparent'"
+      "value": "(val) ? ';fill: #9ea1a8' : ';fill: transparent'"
     }
   },
   {
@@ -536,7 +536,7 @@
     "style": {
       "enable": true,
       "channel": "wb-rm6c-3/K 2",
-      "value": "(val) ? ';fill: #a6a6a6ff' : ';fill: transparent'"
+      "value": "(val) ? ';fill: #9ea1a8' : ';fill: transparent'"
     }
   },
   {
@@ -563,7 +563,7 @@
     "style": {
       "enable": true,
       "channel": "wb-rm6c-3/K 3",
-      "value": "(val) ? ';fill: #a6a6a6ff' : ';fill: transparent'"
+      "value": "(val) ? ';fill: #9ea1a8' : ';fill: transparent'"
     }
   },
   {
@@ -590,7 +590,7 @@
     "style": {
       "enable": true,
       "channel": "wb-rm6c-3/K 4",
-      "value": "(val) ? ';fill: #a6a6a6ff' : ';fill: transparent'"
+      "value": "(val) ? ';fill: #9ea1a8' : ';fill: transparent'"
     }
   },
   {
@@ -617,7 +617,7 @@
     "style": {
       "enable": true,
       "channel": "wb-rm6c-3/K 5",
-      "value": "(val) ? ';fill: #a6a6a6ff' : ';fill: transparent'"
+      "value": "(val) ? ';fill: #9ea1a8' : ';fill: transparent'"
     }
   },
   {
@@ -644,7 +644,7 @@
     "style": {
       "enable": true,
       "channel": "wb-rm6c-3/K 6",
-      "value": "(val) ? ';fill: #a6a6a6ff' : ';fill: transparent'"
+      "value": "(val) ? ';fill: #9ea1a8' : ';fill: transparent'"
     }
   }
 ]
