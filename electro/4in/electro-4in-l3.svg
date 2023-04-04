@@ -5,7 +5,7 @@
    viewBox="0 0 127 127"
    version="1.1"
    id="svg5"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="electro-4in-l3.svg"
    xml:space="preserve"
    style=""
@@ -135,7 +135,7 @@
            x="51.346603"
            y="17.383551">P, кВт</tspan></text></g><a
        id="a377"
-       xlink:href="http://192.168.2.12/#!/dashboards/svg/view/electro-4in-main?hmi&amp;hmicolor=%231a1a1a"><g
+       xlink:href="/#!/dashboards/svg/view/electro-4in-main?hmi&amp;hmicolor=%231a1a1a"><g
          id="g1270"
          transform="matrix(1.384695,0,0,1.3850056,-0.06759542,82.87411)"
          style="stroke-width:0.7221"><rect
