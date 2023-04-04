@@ -1,0 +1,110 @@
+[
+  {
+    "id": "f1874c9322d5",
+    "read": {
+      "enable": true,
+      "channel": "4in-panel-thermostat/CurrTemp",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1874c937259",
+    "read": {
+      "enable": true,
+      "channel": "4in-panel-thermostat/SetTemp",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1874c96bd0a",
+    "read": {
+      "enable": true,
+      "channel": "4in-panel-thermostat/Co2",
+      "value": "val"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1874c979289",
+    "read": {
+      "enable": true,
+      "channel": "4in-panel-thermostat/Humidity",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  }
+]
