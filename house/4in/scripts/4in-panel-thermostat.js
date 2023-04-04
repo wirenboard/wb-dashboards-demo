@@ -1,18 +1,6 @@
 defineVirtualDevice("4in-panel-thermostat", {
     title: "4in Thermostat Panel",
     cells: {
-        Co2: {
-            title: "CO2",
-            type: "value",
-            value: 950,
-            order: 1
-        },
-        Humidity: {
-            title: "Humidity",
-            type: "value",
-            value: 40,
-            order: 2
-        },
         CurrTemp: {
             title: "Current Temp",
             type: "value",
