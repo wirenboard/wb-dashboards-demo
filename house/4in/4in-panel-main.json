@@ -440,7 +440,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-3/K 1",
+      "channel": "wb-mr6c-3/K 1",
       "value": {
         "on": 1,
         "off": 0
@@ -454,7 +454,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-rm6c-3/K 1",
+      "channel": "wb-mr6c-3/K 1",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
     }
   },
@@ -467,7 +467,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-3/K 2",
+      "channel": "wb-mr6c-3/K 2",
       "value": {
         "on": 1,
         "off": 0
@@ -481,7 +481,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-rm6c-3/K 2",
+      "channel": "wb-mr6c-3/K 2",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
     }
   },
@@ -494,7 +494,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-3/K 3",
+      "channel": "wb-mr6c-3/K 3",
       "value": {
         "on": 1,
         "off": 0
@@ -508,7 +508,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-rm6c-3/K 3",
+      "channel": "wb-mr6c-3/K 3",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
     }
   },
@@ -521,7 +521,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-3/K 4",
+      "channel": "wb-mr6c-3/K 4",
       "value": {
         "on": 1,
         "off": 0
@@ -535,7 +535,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-rm6c-3/K 4",
+      "channel": "wb-mr6c-3/K 4",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
     }
   },
@@ -548,7 +548,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-3/K 1",
+      "channel": "wb-mr6c-3/K 1",
       "value": {
         "on": 1,
         "off": 0
@@ -575,7 +575,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-3/K 2",
+      "channel": "wb-mr6c-3/K 2",
       "value": {
         "on": 1,
         "off": 0
@@ -602,7 +602,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-3/K 3",
+      "channel": "wb-mr6c-3/K 3",
       "value": {
         "on": 1,
         "off": 0
@@ -629,7 +629,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-3/K 4",
+      "channel": "wb-mr6c-3/K 4",
       "value": {
         "on": 1,
         "off": 0

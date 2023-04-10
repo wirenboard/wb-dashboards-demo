@@ -8,7 +8,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-4/K 5",
+      "channel": "wb-mr6c-4/K 5",
       "value": {
         "on": 1,
         "off": 0
@@ -22,7 +22,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-rm6c-4/K 5",
+      "channel": "wb-mr6c-4/K 5",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
     }
   },
@@ -35,7 +35,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-4/K 5",
+      "channel": "wb-mr6c-4/K 5",
       "value": {
         "on": 1,
         "off": 0
@@ -62,7 +62,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-4/K 6",
+      "channel": "wb-mr6c-4/K 6",
       "value": {
         "on": 1,
         "off": 0
@@ -76,7 +76,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-rm6c-4/K 6",
+      "channel": "wb-mr6c-4/K 6",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
     }
   },
@@ -89,7 +89,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-4/K 6",
+      "channel": "wb-mr6c-4/K 6",
       "value": {
         "on": 1,
         "off": 0
@@ -116,7 +116,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-5/K 1",
+      "channel": "wb-mr6c-5/K 1",
       "value": {
         "on": 1,
         "off": 0
@@ -130,7 +130,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-rm6c-5/K 1",
+      "channel": "wb-mr6c-5/K 1",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
     }
   },
@@ -143,7 +143,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-5/K 1",
+      "channel": "wb-mr6c-5/K 1",
       "value": {
         "on": 1,
         "off": 0
@@ -170,7 +170,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-5/K 2",
+      "channel": "wb-mr6c-5/K 2",
       "value": {
         "on": 1,
         "off": 0
@@ -184,7 +184,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-rm6c-5/K 2",
+      "channel": "wb-mr6c-5/K 2",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
     }
   },
@@ -197,7 +197,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-5/K 2",
+      "channel": "wb-mr6c-5/K 2",
       "value": {
         "on": 1,
         "off": 0
@@ -224,7 +224,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-5/K 3",
+      "channel": "wb-mr6c-5/K 3",
       "value": {
         "on": 1,
         "off": 0
@@ -238,7 +238,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-rm6c-5/K 3",
+      "channel": "wb-mr6c-5/K 3",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
     }
   },
@@ -251,7 +251,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-5/K 3",
+      "channel": "wb-mr6c-5/K 3",
       "value": {
         "on": 1,
         "off": 0
@@ -278,7 +278,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-5/K 4",
+      "channel": "wb-mr6c-5/K 4",
       "value": {
         "on": 1,
         "off": 0
@@ -292,7 +292,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-rm6c-5/K 4",
+      "channel": "wb-mr6c-5/K 4",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
     }
   },
@@ -305,7 +305,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-5/K 4",
+      "channel": "wb-mr6c-5/K 4",
       "value": {
         "on": 1,
         "off": 0
@@ -332,7 +332,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-5/K 5",
+      "channel": "wb-mr6c-5/K 5",
       "value": {
         "on": 1,
         "off": 0
@@ -346,7 +346,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-rm6c-5/K 5",
+      "channel": "wb-mr6c-5/K 5",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
     }
   },
@@ -359,7 +359,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-5/K 5",
+      "channel": "wb-mr6c-5/K 5",
       "value": {
         "on": 1,
         "off": 0
@@ -386,7 +386,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-5/K 6",
+      "channel": "wb-mr6c-5/K 6",
       "value": {
         "on": 1,
         "off": 0
@@ -400,7 +400,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-rm6c-5/K 6",
+      "channel": "wb-mr6c-5/K 6",
       "value": "(val) ? ';fill: #e99e5e' : ';fill: #cad1d9'"
     }
   },
@@ -413,7 +413,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-5/K 6",
+      "channel": "wb-mr6c-5/K 6",
       "value": {
         "on": 1,
         "off": 0
@@ -440,7 +440,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-6/K 1",
+      "channel": "wb-mr6c-6/K 1",
       "value": {
         "on": 1,
         "off": 0
@@ -454,7 +454,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-rm6c-6/K 1",
+      "channel": "wb-mr6c-6/K 1",
       "value": "(val) ? ';fill: #e99e5e' : ';fill: #cad1d9'"
     }
   },
@@ -467,7 +467,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-6/K 1",
+      "channel": "wb-mr6c-6/K 1",
       "value": {
         "on": 1,
         "off": 0
@@ -494,7 +494,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-6/K 2",
+      "channel": "wb-mr6c-6/K 2",
       "value": {
         "on": 1,
         "off": 0
@@ -508,7 +508,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-rm6c-6/K 2",
+      "channel": "wb-mr6c-6/K 2",
       "value": "(val) ? ';fill: #e99e5e' : ';fill: #cad1d9'"
     }
   },
@@ -521,7 +521,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-rm6c-6/K 2",
+      "channel": "wb-mr6c-6/K 2",
       "value": {
         "on": 1,
         "off": 0

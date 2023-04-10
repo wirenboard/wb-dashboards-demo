@@ -1,25 +1,25 @@
 var emulator = require("device-emulator"); // подключаем модуль
 var devices = [ // описываем устройства
     {
-        "type": "WB-RM6C",
+        "type": "WB-MR6C",
         "address": 3,
         "emulators": [
         ]
     },
     {
-        "type": "WB-RM6C",
+        "type": "WB-MR6C",
         "address": 4,
         "emulators": [
         ]
     },
     {
-        "type": "WB-RM6C",
+        "type": "WB-MR6C",
         "address": 5,
         "emulators": [
         ]
     },
     {
-        "type": "WB-RM6C",
+        "type": "WB-MR6C",
         "address": 6,
         "emulators": [
         ]
@@ -91,31 +91,31 @@ init()
 function init() {
     emulator.init(devices);
     // Инициализация реле, потом надо перетащить в эмулятор
-    emulator.publishValue("wb-rm6c-3", "K 1", 1)
-    emulator.publishValue("wb-rm6c-3", "K 2", 0)
-    emulator.publishValue("wb-rm6c-3", "K 3", 1)
-    emulator.publishValue("wb-rm6c-3", "K 4", 0)
-    emulator.publishValue("wb-rm6c-3", "K 5", 1)
-    emulator.publishValue("wb-rm6c-3", "K 6", 0)
+    emulator.publishValue("wb-mr6c-3", "K 1", 1)
+    emulator.publishValue("wb-mr6c-3", "K 2", 0)
+    emulator.publishValue("wb-mr6c-3", "K 3", 1)
+    emulator.publishValue("wb-mr6c-3", "K 4", 0)
+    emulator.publishValue("wb-mr6c-3", "K 5", 1)
+    emulator.publishValue("wb-mr6c-3", "K 6", 0)
 
-    emulator.publishValue("wb-rm6c-4", "K 1", 0)
-    emulator.publishValue("wb-rm6c-4", "K 2", 1)
-    emulator.publishValue("wb-rm6c-4", "K 3", 0)
-    emulator.publishValue("wb-rm6c-4", "K 4", 1)
-    emulator.publishValue("wb-rm6c-4", "K 5", 0)
-    emulator.publishValue("wb-rm6c-4", "K 6", 1)
+    emulator.publishValue("wb-mr6c-4", "K 1", 0)
+    emulator.publishValue("wb-mr6c-4", "K 2", 1)
+    emulator.publishValue("wb-mr6c-4", "K 3", 0)
+    emulator.publishValue("wb-mr6c-4", "K 4", 1)
+    emulator.publishValue("wb-mr6c-4", "K 5", 0)
+    emulator.publishValue("wb-mr6c-4", "K 6", 1)
 
-    emulator.publishValue("wb-rm6c-5", "K 1", 1)
-    emulator.publishValue("wb-rm6c-5", "K 2", 0)
-    emulator.publishValue("wb-rm6c-5", "K 3", 0)
-    emulator.publishValue("wb-rm6c-5", "K 4", 1)
-    emulator.publishValue("wb-rm6c-5", "K 5", 1)
-    emulator.publishValue("wb-rm6c-5", "K 6", 0)
+    emulator.publishValue("wb-mr6c-5", "K 1", 1)
+    emulator.publishValue("wb-mr6c-5", "K 2", 0)
+    emulator.publishValue("wb-mr6c-5", "K 3", 0)
+    emulator.publishValue("wb-mr6c-5", "K 4", 1)
+    emulator.publishValue("wb-mr6c-5", "K 5", 1)
+    emulator.publishValue("wb-mr6c-5", "K 6", 0)
 
-    emulator.publishValue("wb-rm6c-6", "K 1", 1)
-    emulator.publishValue("wb-rm6c-6", "K 2", 0)
-    emulator.publishValue("wb-rm6c-6", "K 3", 1)
-    emulator.publishValue("wb-rm6c-6", "K 4", 0)
-    emulator.publishValue("wb-rm6c-6", "K 5", 1)
-    emulator.publishValue("wb-rm6c-6", "K 6", 0)
+    emulator.publishValue("wb-mr6c-6", "K 1", 1)
+    emulator.publishValue("wb-mr6c-6", "K 2", 0)
+    emulator.publishValue("wb-mr6c-6", "K 3", 1)
+    emulator.publishValue("wb-mr6c-6", "K 4", 0)
+    emulator.publishValue("wb-mr6c-6", "K 5", 1)
+    emulator.publishValue("wb-mr6c-6", "K 6", 0)
 }
