@@ -8,7 +8,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-4/K 5",
+      "channel": "wb-mr6c_4/K5",
       "value": {
         "on": 1,
         "off": 0
@@ -22,7 +22,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-mr6c-4/K 5",
+      "channel": "wb-mr6c_4/K5",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
     }
   },
@@ -35,7 +35,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-4/K 5",
+      "channel": "wb-mr6c_4/K5",
       "value": {
         "on": 1,
         "off": 0
@@ -62,7 +62,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-4/K 6",
+      "channel": "wb-mr6c_4/K6",
       "value": {
         "on": 1,
         "off": 0
@@ -76,7 +76,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-mr6c-4/K 6",
+      "channel": "wb-mr6c_4/K6",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
     }
   },
@@ -89,7 +89,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-4/K 6",
+      "channel": "wb-mr6c_4/K6",
       "value": {
         "on": 1,
         "off": 0
@@ -116,7 +116,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-5/K 1",
+      "channel": "wb-mr6c_5/K1",
       "value": {
         "on": 1,
         "off": 0
@@ -130,7 +130,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-mr6c-5/K 1",
+      "channel": "wb-mr6c_5/K1",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
     }
   },
@@ -143,7 +143,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-5/K 1",
+      "channel": "wb-mr6c_5/K1",
       "value": {
         "on": 1,
         "off": 0
@@ -170,7 +170,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-5/K 2",
+      "channel": "wb-mr6c_5/K2",
       "value": {
         "on": 1,
         "off": 0
@@ -184,7 +184,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-mr6c-5/K 2",
+      "channel": "wb-mr6c_5/K2",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
     }
   },
@@ -197,7 +197,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-5/K 2",
+      "channel": "wb-mr6c_5/K2",
       "value": {
         "on": 1,
         "off": 0
@@ -224,7 +224,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-5/K 3",
+      "channel": "wb-mr6c_5/K3",
       "value": {
         "on": 1,
         "off": 0
@@ -238,7 +238,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-mr6c-5/K 3",
+      "channel": "wb-mr6c_5/K3",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
     }
   },
@@ -251,7 +251,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-5/K 3",
+      "channel": "wb-mr6c_5/K3",
       "value": {
         "on": 1,
         "off": 0
@@ -278,7 +278,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-5/K 4",
+      "channel": "wb-mr6c_5/K4",
       "value": {
         "on": 1,
         "off": 0
@@ -292,7 +292,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-mr6c-5/K 4",
+      "channel": "wb-mr6c_5/K4",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
     }
   },
@@ -305,7 +305,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-5/K 4",
+      "channel": "wb-mr6c_5/K4",
       "value": {
         "on": 1,
         "off": 0
@@ -332,7 +332,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-5/K 5",
+      "channel": "wb-mr6c_5/K5",
       "value": {
         "on": 1,
         "off": 0
@@ -346,7 +346,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-mr6c-5/K 5",
+      "channel": "wb-mr6c_5/K5",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
     }
   },
@@ -359,7 +359,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-5/K 5",
+      "channel": "wb-mr6c_5/K5",
       "value": {
         "on": 1,
         "off": 0
@@ -386,7 +386,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-5/K 6",
+      "channel": "wb-mr6c_5/K6",
       "value": {
         "on": 1,
         "off": 0
@@ -400,7 +400,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-mr6c-5/K 6",
+      "channel": "wb-mr6c_5/K6",
       "value": "(val) ? ';fill: #e99e5e' : ';fill: #cad1d9'"
     }
   },
@@ -413,7 +413,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-5/K 6",
+      "channel": "wb-mr6c_5/K6",
       "value": {
         "on": 1,
         "off": 0
@@ -440,7 +440,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-6/K 1",
+      "channel": "wb-mr6c_6/K1",
       "value": {
         "on": 1,
         "off": 0
@@ -454,7 +454,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-mr6c-6/K 1",
+      "channel": "wb-mr6c_6/K1",
       "value": "(val) ? ';fill: #e99e5e' : ';fill: #cad1d9'"
     }
   },
@@ -467,7 +467,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-6/K 1",
+      "channel": "wb-mr6c_6/K1",
       "value": {
         "on": 1,
         "off": 0
@@ -494,7 +494,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-6/K 2",
+      "channel": "wb-mr6c_6/K2",
       "value": {
         "on": 1,
         "off": 0
@@ -508,7 +508,7 @@
     },
     "style": {
       "enable": true,
-      "channel": "wb-mr6c-6/K 2",
+      "channel": "wb-mr6c_6/K2",
       "value": "(val) ? ';fill: #e99e5e' : ';fill: #cad1d9'"
     }
   },
@@ -521,7 +521,7 @@
     },
     "write": {
       "enable": true,
-      "channel": "wb-mr6c-6/K 2",
+      "channel": "wb-mr6c_6/K2",
       "value": {
         "on": 1,
         "off": 0
@@ -543,7 +543,7 @@
     "id": "f1876a04a5bf",
     "read": {
       "enable": true,
-      "channel": "wb-msw-v3-5/Temperature",
+      "channel": "wb-msw-v3_5/Temperature",
       "value": "val.toFixed(0)+'°C'"
     },
     "write": {
@@ -570,7 +570,7 @@
     "id": "f1876a0523bd",
     "read": {
       "enable": true,
-      "channel": "wb-msw-v3-6/Temperature",
+      "channel": "wb-msw-v3_6/Temperature",
       "value": "val.toFixed(0)+'°C'"
     },
     "write": {
@@ -597,7 +597,7 @@
     "id": "f1876a057a05",
     "read": {
       "enable": true,
-      "channel": "wb-msw-v3-7/Temperature",
+      "channel": "wb-msw-v3_7/Temperature",
       "value": "val.toFixed(0)+'°C'"
     },
     "write": {
@@ -624,7 +624,7 @@
     "id": "f1876a05cb03",
     "read": {
       "enable": true,
-      "channel": "wb-msw-v3-8/Temperature",
+      "channel": "wb-msw-v3_8/Temperature",
       "value": "val.toFixed(0)+'°C'"
     },
     "write": {
@@ -651,7 +651,7 @@
     "id": "f1876a05f4a4",
     "read": {
       "enable": true,
-      "channel": "wb-msw-v3-9/Temperature",
+      "channel": "wb-msw-v3_9/Temperature",
       "value": "val.toFixed(0)+'°C'"
     },
     "write": {
