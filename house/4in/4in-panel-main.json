@@ -1,9 +1,225 @@
 [
   {
-    "id": "f184670056a2",
+    "id": "f1876a1ecf42",
     "read": {
       "enable": true,
-      "channel": "hwmon/CPU Temperature",
+      "channel": "wb-msw-v3_5/Temperature",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1876a1f46ed",
+    "read": {
+      "enable": true,
+      "channel": "wb-msw-v3_6/Temperature",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1876a1f9f71",
+    "read": {
+      "enable": true,
+      "channel": "wb-msw-v3_7/Temperature",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1876a1fdcb7",
+    "read": {
+      "enable": true,
+      "channel": "wb-msw-v3_8/Temperature",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1876a229c8a",
+    "read": {
+      "enable": true,
+      "channel": "wb-msw-v3_6/Humidity",
+      "value": "val.toFixed(0)+' %'"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1876a234fc0",
+    "read": {
+      "enable": true,
+      "channel": "wb-msw-v3_6/Humidity",
+      "value": "val.toFixed(0)+' %'"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1876a237f08",
+    "read": {
+      "enable": true,
+      "channel": "wb-msw-v3_7/Humidity",
+      "value": "val.toFixed(0)+' %'"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1876a23d1d1",
+    "read": {
+      "enable": true,
+      "channel": "wb-msw-v3_8/Humidity",
+      "value": "val.toFixed(0)+' %'"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1876a245045",
+    "read": {
+      "enable": true,
+      "channel": "wb-msw-v3_5/CO2",
       "value": "val"
     },
     "write": {
@@ -27,11 +243,11 @@
     }
   },
   {
-    "id": "f18468207090",
+    "id": "f1876a24c126",
     "read": {
       "enable": true,
-      "channel": "power_status/Vin",
-      "value": "val.toFixed(2)"
+      "channel": "wb-msw-v3_5/VOC",
+      "value": "val"
     },
     "write": {
       "enable": false,
@@ -54,11 +270,11 @@
     }
   },
   {
-    "id": "f1847a7c2e25",
+    "id": "f1876a2490fc",
     "read": {
       "enable": true,
-      "channel": "wb-map3e_1/Urms L1",
-      "value": "val.toFixed(2)"
+      "channel": "wb-msw-v3_6/CO2",
+      "value": "val"
     },
     "write": {
       "enable": false,
@@ -81,11 +297,11 @@
     }
   },
   {
-    "id": "f1847a7c9b7e",
+    "id": "f1876a255461",
     "read": {
       "enable": true,
-      "channel": "wb-map3e_1/Irms L1",
-      "value": "val.toFixed(2)"
+      "channel": "wb-msw-v3_6/VOC",
+      "value": "val"
     },
     "write": {
       "enable": false,
@@ -108,11 +324,11 @@
     }
   },
   {
-    "id": "f1847a7ccf2f",
+    "id": "f1876a258884",
     "read": {
       "enable": true,
-      "channel": "wb-map3e_1/Urms L2",
-      "value": "val.toFixed(2)"
+      "channel": "wb-msw-v3_7/CO2",
+      "value": "val"
     },
     "write": {
       "enable": false,
@@ -135,11 +351,11 @@
     }
   },
   {
-    "id": "f1847a7d089d",
+    "id": "f1876a25d3a0",
     "read": {
       "enable": true,
-      "channel": "wb-map3e_1/Irms L2",
-      "value": "val.toFixed(2)"
+      "channel": "wb-msw-v3_7/VOC",
+      "value": "val"
     },
     "write": {
       "enable": false,
@@ -162,11 +378,11 @@
     }
   },
   {
-    "id": "f1847a7d630a",
+    "id": "f1876a25f8eb",
     "read": {
       "enable": true,
-      "channel": "wb-map3e_1/Urms L3",
-      "value": "val.toFixed(2)"
+      "channel": "wb-msw-v3_8/CO2",
+      "value": "val"
     },
     "write": {
       "enable": false,
@@ -189,11 +405,11 @@
     }
   },
   {
-    "id": "f1847a7d9766",
+    "id": "f1876a2627f4",
     "read": {
       "enable": true,
-      "channel": "wb-map3e_1/Irms L3",
-      "value": "val.toFixed(2)"
+      "channel": "wb-msw-v3_8/VOC",
+      "value": "val"
     },
     "write": {
       "enable": false,
@@ -216,15 +432,123 @@
     }
   },
   {
-    "id": "f1847ad57eeb",
+    "id": "f1876a2dda0b",
     "read": {
-      "enable": true,
-      "channel": "wb-map3e_1/Urms L1",
-      "value": "val.toFixed(2)"
-    },
-    "write": {
       "enable": false,
       "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-mr6c_3/K1",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-mr6c_3/K1",
+      "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
+    }
+  },
+  {
+    "id": "f1876a2e18d2",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-mr6c_3/K2",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-mr6c_3/K2",
+      "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
+    }
+  },
+  {
+    "id": "f1876a2e5c47",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-mr6c_3/K3",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-mr6c_3/K3",
+      "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
+    }
+  },
+  {
+    "id": "f1876a2eb41f",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-mr6c_3/K4",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-mr6c_3/K4",
+      "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
+    }
+  },
+  {
+    "id": "f1876a2f066e",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-mr6c_3/K1",
       "value": {
         "on": 1,
         "off": 0
@@ -243,15 +567,15 @@
     }
   },
   {
-    "id": "f1847ad5add7",
+    "id": "f1876a2f2b97",
     "read": {
-      "enable": true,
-      "channel": "wb-map3e_1/Irms L1",
-      "value": "val.toFixed(2)"
-    },
-    "write": {
       "enable": false,
       "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-mr6c_3/K2",
       "value": {
         "on": 1,
         "off": 0
@@ -270,15 +594,15 @@
     }
   },
   {
-    "id": "f1847ad5f61f",
+    "id": "f1876a2f5a5a",
     "read": {
-      "enable": true,
-      "channel": "wb-map3e_1/Urms L2",
-      "value": "val.toFixed(2)"
-    },
-    "write": {
       "enable": false,
       "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-mr6c_3/K3",
       "value": {
         "on": 1,
         "off": 0
@@ -297,123 +621,15 @@
     }
   },
   {
-    "id": "f1847ad69636",
+    "id": "f1876a2f7dcf",
     "read": {
-      "enable": true,
-      "channel": "wb-map3e_1/Irms L2",
-      "value": "val.toFixed(2)"
+      "enable": false,
+      "channel": null,
+      "value": "val"
     },
     "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1847ad6bc5a",
-    "read": {
       "enable": true,
-      "channel": "wb-map3e_1/Urms L3",
-      "value": "val.toFixed(2)"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1847ad6fa7a",
-    "read": {
-      "enable": true,
-      "channel": "wb-map3e_1/Ipeak L3",
-      "value": "val.toFixed(2)"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1847af96b37",
-    "read": {
-      "enable": true,
-      "channel": "el-srv-dev/wb-map3e_1 AP Energy",
-      "value": "val.toFixed(3)"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1847afa026c",
-    "read": {
-      "enable": true,
-      "channel": "el-srv-dev/wb-map3e_1 P",
-      "value": "(val/1000).toFixed(2)"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
+      "channel": "wb-mr6c_3/K4",
       "value": {
         "on": 1,
         "off": 0

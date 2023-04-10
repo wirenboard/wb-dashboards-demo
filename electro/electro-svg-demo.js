@@ -43,13 +43,13 @@ var devices = [ // описываем устройства
         ]
     },
     {
-        "type": "WB-RM6C",
+        "type": "WB-MR6C",
         "address": 3,
         "emulators": [
         ]
     },
     {
-        "type": "WB-RM6C",
+        "type": "WB-MR6C",
         "address": 4,
         "emulators": [
         ]
@@ -73,28 +73,28 @@ init()
 function init() {
     emulator.init(devices);
     // задаём какие-то начальные значения для первого счётчика
-    emulator.publishValue("wb-map3e-1", "AP energy L1", 1250.120)
-    emulator.publishValue("wb-map3e-1", "AP energy L2", 4843.150)
-    emulator.publishValue("wb-map3e-1", "AP energy L3", 1489.190)
+    emulator.publishValue("wb-map3e_1", "AP energy L1", 1250.120)
+    emulator.publishValue("wb-map3e_1", "AP energy L2", 4843.150)
+    emulator.publishValue("wb-map3e_1", "AP energy L3", 1489.190)
 
-    emulator.publishValue("wb-map3e-1", "RP energy L1", 120.600)
-    emulator.publishValue("wb-map3e-1", "RP energy L2", 450.130)
-    emulator.publishValue("wb-map3e-1", "RP energy L3", 35.520)
+    emulator.publishValue("wb-map3e_1", "RP energy L1", 120.600)
+    emulator.publishValue("wb-map3e_1", "RP energy L2", 450.130)
+    emulator.publishValue("wb-map3e_1", "RP energy L3", 35.520)
 
     // Инициализация реле, потом надо перетащить в эмулятор
-    emulator.publishValue("wb-rm6c-3", "K 1", 1)
-    emulator.publishValue("wb-rm6c-3", "K 2", 1)
-    emulator.publishValue("wb-rm6c-3", "K 3", 1)
-    emulator.publishValue("wb-rm6c-3", "K 4", 1)
-    emulator.publishValue("wb-rm6c-3", "K 5", 1)
-    emulator.publishValue("wb-rm6c-3", "K 6", 0)
+    emulator.publishValue("wb-mr6c_3", "K1", 1)
+    emulator.publishValue("wb-mr6c_3", "K2", 1)
+    emulator.publishValue("wb-mr6c_3", "K3", 1)
+    emulator.publishValue("wb-mr6c_3", "K4", 1)
+    emulator.publishValue("wb-mr6c_3", "K5", 1)
+    emulator.publishValue("wb-mr6c_3", "K6", 0)
 
-    emulator.publishValue("wb-rm6c-4", "K 1", 1)
-    emulator.publishValue("wb-rm6c-4", "K 2", 1)
-    emulator.publishValue("wb-rm6c-4", "K 3", 1)
-    emulator.publishValue("wb-rm6c-4", "K 4", 1)
-    emulator.publishValue("wb-rm6c-4", "K 5", 0)
-    emulator.publishValue("wb-rm6c-4", "K 6", 0)
+    emulator.publishValue("wb-mr6c_4", "K1", 1)
+    emulator.publishValue("wb-mr6c_4", "K2", 1)
+    emulator.publishValue("wb-mr6c_4", "K3", 1)
+    emulator.publishValue("wb-mr6c_4", "K4", 1)
+    emulator.publishValue("wb-mr6c_4", "K5", 0)
+    emulator.publishValue("wb-mr6c_4", "K6", 0)
 
     serviceDeviceInit()
 }
@@ -104,37 +104,37 @@ function serviceDeviceInit() {
     defineVirtualDevice('el-srv-dev', {
         title: 'Electro Service',
         cells: {
-            "wb-map3e-1 P": {
+            "wb-map3e_1 P": {
                 title: "WB-MAP3E-1 P",
                 type: "value",
                 value: 0,
                 order: 1
             },
-            "wb-map3e-1 S": {
+            "wb-map3e_1 S": {
                 title: "WB-MAP3E-1 S",
                 type: "value",
                 value: 0,
                 order: 2
             },
-            "wb-map3e-1 AP Energy": {
+            "wb-map3e_1 AP Energy": {
                 title: "WB-MAP3E-1 AP Energy",
                 type: "value",
                 value: 0,
                 order: 3
             },
-            "wb-map3e-2 P": {
+            "wb-map3e_2 P": {
                 title: "WB-MAP3E-2 P",
                 type: "value",
                 value: 0,
                 order: 4
             },
-            "wb-map3e-2 S": {
+            "wb-map3e_2 S": {
                 title: "WB-MAP3E-2 S",
                 type: "value",
                 value: 0,
                 order: 5
             },
-            "wb-map3e-2 AP Energy": {
+            "wb-map3e_2 AP Energy": {
                 title: "WB-MAP3E-2 AP Energy",
                 type: "value",
                 value: 0,
@@ -157,39 +157,39 @@ function serviceDeviceInit() {
 
     defineRule({
         whenChanged: [
-            "wb-map3e-1/AP energy L1",
-            "wb-map3e-1/AP energy L2",
-            "wb-map3e-1/AP energy L3",
-            "wb-map3e-1/P L1",
-            "wb-map3e-1/P L2",
-            "wb-map3e-1/P L3",
-            "wb-map3e-1/S L1",
-            "wb-map3e-1/S L2",
-            "wb-map3e-1/S L3",
-            "wb-map3e-2/AP energy L1",
-            "wb-map3e-2/AP energy L2",
-            "wb-map3e-2/AP energy L3",
-            "wb-map3e-2/P L1",
-            "wb-map3e-2/P L2",
-            "wb-map3e-2/P L3",
-            "wb-map3e-2/S L1",
-            "wb-map3e-2/S L2",
-            "wb-map3e-2/S L3",
-            "el-srv-dev/wb-map3e-1 P",
-            "el-srv-dev/wb-map3e-2 P",
-            "el-srv-dev/wb-map3e-1 S",
-            "el-srv-dev/wb-map3e-2 S"
+            "wb-map3e_1/AP energy L1",
+            "wb-map3e_1/AP energy L2",
+            "wb-map3e_1/AP energy L3",
+            "wb-map3e_1/P L1",
+            "wb-map3e_1/P L2",
+            "wb-map3e_1/P L3",
+            "wb-map3e_1/S L1",
+            "wb-map3e_1/S L2",
+            "wb-map3e_1/S L3",
+            "wb-map3e_2/AP energy L1",
+            "wb-map3e_2/AP energy L2",
+            "wb-map3e_2/AP energy L3",
+            "wb-map3e_2/P L1",
+            "wb-map3e_2/P L2",
+            "wb-map3e_2/P L3",
+            "wb-map3e_2/S L1",
+            "wb-map3e_2/S L2",
+            "wb-map3e_2/S L3",
+            "el-srv-dev/wb-map3e_1 P",
+            "el-srv-dev/wb-map3e_2 P",
+            "el-srv-dev/wb-map3e_1 S",
+            "el-srv-dev/wb-map3e_2 S"
         ],
         then: function (newValue, devName, cellName) {
             switch (cellName) {
-                case "wb-map3e-1 S":
-                case "wb-map3e-2 S":
-                    var sum = dev[devName]["wb-map3e-1 S"] + dev[devName]["wb-map3e-2 S"]
+                case "wb-map3e_1 S":
+                case "wb-map3e_2 S":
+                    var sum = dev[devName]["wb-map3e_1 S"] + dev[devName]["wb-map3e_2 S"]
                     dev["el-srv-dev"]["wb-map3e S1-2"] = Number(sum.toFixed(2))
                     break;
-                case "wb-map3e-1 P":
-                case "wb-map3e-2 P":
-                    var sum = dev[devName]["wb-map3e-1 P"] + dev[devName]["wb-map3e-2 P"]
+                case "wb-map3e_1 P":
+                case "wb-map3e_2 P":
+                    var sum = dev[devName]["wb-map3e_1 P"] + dev[devName]["wb-map3e_2 P"]
                     dev["el-srv-dev"]["wb-map3e P1-2"] = Number(sum.toFixed(2))
                     break;
                 case "AP energy L1":

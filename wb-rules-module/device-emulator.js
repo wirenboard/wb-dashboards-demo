@@ -23,7 +23,7 @@ templates = [
     {
         "type": "WB-MR6C",
         "entities": [
-            { "name": "K {}", "type": "switch", "readonly": false, "count": 6 },
+            { "name": "K{}", "type": "switch", "readonly": false, "count": 6 },
             { "name": "Input {}", "type": "switch", "readonly": true, "count": 6 },
         ]
     },
@@ -76,7 +76,7 @@ function init(deviceArr) {
 function initDevice(newDevice) {
     var deviceType = newDevice["type"]
     var deviceTitle = "{} {}".format(deviceType, newDevice["address"]);
-    var deviceName = formatDeviceName(deviceTitle)
+    var deviceName = formatDeviceName("{}_{}".format(deviceType, newDevice["address"]))
     var emulators = newDevice["emulators"]
 
     newDevice["name"] = deviceName

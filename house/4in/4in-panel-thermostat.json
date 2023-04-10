@@ -1,0 +1,218 @@
+[
+  {
+    "id": "f1874c8b36ce",
+    "read": {
+      "enable": true,
+      "channel": "4in-panel-thermostat/CurrTemp",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1874babae12",
+    "read": {
+      "enable": true,
+      "channel": "4in-panel-thermostat/SetTemp",
+      "value": "val.toFixed(1)"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1874c7fc03f",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "4in-panel-thermostat/AutoMode",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "4in-panel-thermostat/AutoMode",
+      "value": "(val) ? ';stroke: #e6e6e6ff; fill-opacity:0.25' : ';stroke: #79838fff; fill-opacity:0'"
+    }
+  },
+  {
+    "id": "f1874c7fe32f",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "4in-panel-thermostat/HeatMode",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "4in-panel-thermostat/HeatMode",
+      "value": "(val) ? ';stroke: #e6e6e6ff; fill-opacity:0.25' : ';stroke: #79838fff; fill-opacity:0'"
+    }
+  },
+  {
+    "id": "f1874c802081",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "4in-panel-thermostat/CoolMode",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "4in-panel-thermostat/CoolMode",
+      "value": "(val) ? ';stroke: #e6e6e6ff; fill-opacity:0.25' : ';stroke: #79838fff; fill-opacity:0'"
+    }
+  },
+  {
+    "id": "f1874c8052d1",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "4in-panel-thermostat/OffMode",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "4in-panel-thermostat/OffMode",
+      "value": "(val) ? ';stroke: #e6e6e6ff; fill-opacity:0.25' : ';stroke: #79838fff; fill-opacity:0'"
+    }
+  },
+  {
+    "id": "f1874babaa86",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "4in-panel-thermostat/Down",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1874baba6c3",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "4in-panel-thermostat/Up",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  }
+]
