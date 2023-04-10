@@ -1,10 +1,550 @@
 [
   {
-    "id": "f1876a1ecf42",
+    "id": "f18756c866ea",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 1",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 1",
+      "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
+    }
+  },
+  {
+    "id": "f1875767980c",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 1",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f18757681cd9",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 2",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 2",
+      "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
+    }
+  },
+  {
+    "id": "f1875768ab12",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 2",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f1875768d91f",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 3",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 3",
+      "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
+    }
+  },
+  {
+    "id": "f18757693c28",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 3",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f18757697961",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 4",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 4",
+      "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
+    }
+  },
+  {
+    "id": "f1875769e07c",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 4",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f187576a18df",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 5",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 5",
+      "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
+    }
+  },
+  {
+    "id": "f187576a7ad3",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 5",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f187576ab32f",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 6",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 6",
+      "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
+    }
+  },
+  {
+    "id": "f187576b12cf",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-3/K 6",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f187576b5887",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-4/K 1",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-4/K 1",
+      "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
+    }
+  },
+  {
+    "id": "f187576baf2e",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-4/K 1",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f187576bee80",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-4/K 2",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-4/K 2",
+      "value": "(val) ? ';fill: #e99e5e' : ';fill: #cad1d9'"
+    }
+  },
+  {
+    "id": "f187576be1f6",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-4/K 2",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f187576d392e",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-4/K 3",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-4/K 3",
+      "value": "(val) ? ';fill: #e99e5e' : ';fill: #cad1d9'"
+    }
+  },
+  {
+    "id": "f187576d33d1",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-4/K 3",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f187576db6b7",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-4/K 4",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "wb-rm6c-4/K 4",
+      "value": "(val) ? ';fill: #e99e5e' : ';fill: #cad1d9'"
+    }
+  },
+  {
+    "id": "f187576e4295",
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": true,
+      "channel": "wb-rm6c-4/K 4",
+      "value": {
+        "on": 1,
+        "off": 0
+      }
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": null
+    }
+  },
+  {
+    "id": "f187576efb8a",
     "read": {
       "enable": true,
       "channel": "wb-msw-v3-5/Temperature",
-      "value": "val.toFixed(1)"
+      "value": "val.toFixed(0)+'°C'"
     },
     "write": {
       "enable": false,
@@ -27,11 +567,11 @@
     }
   },
   {
-    "id": "f1876a1f46ed",
+    "id": "f187576f88ed",
     "read": {
       "enable": true,
       "channel": "wb-msw-v3-6/Temperature",
-      "value": "val.toFixed(1)"
+      "value": "val.toFixed(0)+'°C'"
     },
     "write": {
       "enable": false,
@@ -54,11 +594,11 @@
     }
   },
   {
-    "id": "f1876a1f9f71",
+    "id": "f187576fbd21",
     "read": {
       "enable": true,
       "channel": "wb-msw-v3-7/Temperature",
-      "value": "val.toFixed(1)"
+      "value": "val.toFixed(0)+'°C'"
     },
     "write": {
       "enable": false,
@@ -81,11 +621,11 @@
     }
   },
   {
-    "id": "f1876a1fdcb7",
+    "id": "f18757700625",
     "read": {
       "enable": true,
       "channel": "wb-msw-v3-8/Temperature",
-      "value": "val.toFixed(1)"
+      "value": "val.toFixed(0)+'°C'"
     },
     "write": {
       "enable": false,
@@ -108,528 +648,15 @@
     }
   },
   {
-    "id": "f1876a229c8a",
+    "id": "f18757705fd5",
     "read": {
       "enable": true,
-      "channel": "wb-msw-v3-6/Humidity",
-      "value": "val.toFixed(0)+' %'"
+      "channel": "wb-msw-v3-9/Temperature",
+      "value": "val.toFixed(0)+'°C'"
     },
     "write": {
       "enable": false,
       "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1876a234fc0",
-    "read": {
-      "enable": true,
-      "channel": "wb-msw-v3-6/Humidity",
-      "value": "val.toFixed(0)+' %'"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1876a237f08",
-    "read": {
-      "enable": true,
-      "channel": "wb-msw-v3-7/Humidity",
-      "value": "val.toFixed(0)+' %'"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1876a23d1d1",
-    "read": {
-      "enable": true,
-      "channel": "wb-msw-v3-8/Humidity",
-      "value": "val.toFixed(0)+' %'"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1876a245045",
-    "read": {
-      "enable": true,
-      "channel": "wb-msw-v3-5/CO2",
-      "value": "val"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1876a24c126",
-    "read": {
-      "enable": true,
-      "channel": "wb-msw-v3-5/VOC",
-      "value": "val"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1876a2490fc",
-    "read": {
-      "enable": true,
-      "channel": "wb-msw-v3-6/CO2",
-      "value": "val"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1876a255461",
-    "read": {
-      "enable": true,
-      "channel": "wb-msw-v3-6/VOC",
-      "value": "val"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1876a258884",
-    "read": {
-      "enable": true,
-      "channel": "wb-msw-v3-7/CO2",
-      "value": "val"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1876a25d3a0",
-    "read": {
-      "enable": true,
-      "channel": "wb-msw-v3-7/VOC",
-      "value": "val"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1876a25f8eb",
-    "read": {
-      "enable": true,
-      "channel": "wb-msw-v3-8/CO2",
-      "value": "val"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1876a2627f4",
-    "read": {
-      "enable": true,
-      "channel": "wb-msw-v3-8/VOC",
-      "value": "val"
-    },
-    "write": {
-      "enable": false,
-      "channel": null,
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1876a2dda0b",
-    "read": {
-      "enable": false,
-      "channel": null,
-      "value": "val"
-    },
-    "write": {
-      "enable": true,
-      "channel": "wb-rm6c-3/K 1",
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": true,
-      "channel": "wb-rm6c-3/K 1",
-      "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
-    }
-  },
-  {
-    "id": "f1876a2e18d2",
-    "read": {
-      "enable": false,
-      "channel": null,
-      "value": "val"
-    },
-    "write": {
-      "enable": true,
-      "channel": "wb-rm6c-3/K 2",
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": true,
-      "channel": "wb-rm6c-3/K 2",
-      "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
-    }
-  },
-  {
-    "id": "f1876a2e5c47",
-    "read": {
-      "enable": false,
-      "channel": null,
-      "value": "val"
-    },
-    "write": {
-      "enable": true,
-      "channel": "wb-rm6c-3/K 3",
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": true,
-      "channel": "wb-rm6c-3/K 3",
-      "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
-    }
-  },
-  {
-    "id": "f1876a2eb41f",
-    "read": {
-      "enable": false,
-      "channel": null,
-      "value": "val"
-    },
-    "write": {
-      "enable": true,
-      "channel": "wb-rm6c-3/K 4",
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": true,
-      "channel": "wb-rm6c-3/K 4",
-      "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
-    }
-  },
-  {
-    "id": "f1876a2f066e",
-    "read": {
-      "enable": false,
-      "channel": null,
-      "value": "val"
-    },
-    "write": {
-      "enable": true,
-      "channel": "wb-rm6c-3/K 1",
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1876a2f2b97",
-    "read": {
-      "enable": false,
-      "channel": null,
-      "value": "val"
-    },
-    "write": {
-      "enable": true,
-      "channel": "wb-rm6c-3/K 2",
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1876a2f5a5a",
-    "read": {
-      "enable": false,
-      "channel": null,
-      "value": "val"
-    },
-    "write": {
-      "enable": true,
-      "channel": "wb-rm6c-3/K 3",
-      "value": {
-        "on": 1,
-        "off": 0
-      }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
-    }
-  },
-  {
-    "id": "f1876a2f7dcf",
-    "read": {
-      "enable": false,
-      "channel": null,
-      "value": "val"
-    },
-    "write": {
-      "enable": true,
-      "channel": "wb-rm6c-3/K 4",
       "value": {
         "on": 1,
         "off": 0
