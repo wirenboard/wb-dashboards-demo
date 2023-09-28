@@ -673,5 +673,43 @@
       "channel": null,
       "value": null
     }
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": true,
+      "dashboard": "dashboard10"
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g48664"
   }
 ]

@@ -1,0 +1,1574 @@
+[
+  {
+    "read": {
+      "enable": true,
+      "channel": "my-flat/hall_temperature",
+      "value": "val.toFixed(1)+ ' °C'"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text54126"
+  },
+  {
+    "read": {
+      "enable": true,
+      "channel": "my-flat/kitchen_temperature",
+      "value": "val.toFixed(1)+ ' °C'"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text2874"
+  },
+  {
+    "read": {
+      "enable": true,
+      "channel": "my-flat/bathroom_temperature",
+      "value": "val.toFixed(1)+ ' °C'"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text2902"
+  },
+  {
+    "read": {
+      "enable": true,
+      "channel": "my-flat/breadroom_temperature",
+      "value": "val.toFixed(1)+ ' °C'"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text2930"
+  },
+  {
+    "read": {
+      "enable": true,
+      "channel": "my-flat/questroom_temperature",
+      "value": "val.toFixed(1)+ ' °C'"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text2958"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "my-flat/hall_light",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "my-flat/hall_light",
+      "value": "(val) ? ';fill:#fec901ff' : ';fill:white'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "path976"
+  },
+  {
+    "read": {
+      "enable": true,
+      "channel": "my-flat/hall_humidity",
+      "value": "val.toFixed(0)+ ' %'"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text2107"
+  },
+  {
+    "read": {
+      "enable": true,
+      "channel": "my-flat/kitchen_humidity",
+      "value": "val.toFixed(0)+ ' %'"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text2882"
+  },
+  {
+    "read": {
+      "enable": true,
+      "channel": "my-flat/bathroom_humidity",
+      "value": "val.toFixed(0)+ ' %'"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text2910"
+  },
+  {
+    "read": {
+      "enable": true,
+      "channel": "my-flat/hall_humidity",
+      "value": "val.toFixed(0)+ ' %'"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text2938"
+  },
+  {
+    "read": {
+      "enable": true,
+      "channel": "my-flat/questroom_humidity",
+      "value": "val.toFixed(0)+ ' %'"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text2966"
+  },
+  {
+    "read": {
+      "enable": true,
+      "channel": "my-flat/hall_co2",
+      "value": "val.toFixed(0)+ ' ppm'"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text2128"
+  },
+  {
+    "read": {
+      "enable": true,
+      "channel": "my-flat/kitchen_co2",
+      "value": "val.toFixed(0)+ ' ppm'"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text2886"
+  },
+  {
+    "read": {
+      "enable": true,
+      "channel": "my-flat/bathroom_co2",
+      "value": "val.toFixed(0)+ ' ppm'"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text2914"
+  },
+  {
+    "read": {
+      "enable": true,
+      "channel": "my-flat/breadroom_co2",
+      "value": "val"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text2942"
+  },
+  {
+    "read": {
+      "enable": true,
+      "channel": "my-flat/questroom_co2",
+      "value": "val"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text2970"
+  },
+  {
+    "read": {
+      "enable": true,
+      "channel": "my-flat/service_counter_water",
+      "value": "val"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text2994"
+  },
+  {
+    "read": {
+      "enable": true,
+      "channel": "my-flat/service_counter_electro",
+      "value": "val"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text3162"
+  },
+  {
+    "read": {
+      "enable": true,
+      "channel": "my-flat/service_counter_gas",
+      "value": "val"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text3166"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "panel-logic/OffAll",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": "panel-logic/OffAll",
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g763"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "panel-logic/GoOut",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": "panel-logic/GoOut",
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g767"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "panel-logic/GoOut",
+      "value": "(val) ? ';fill: #ff9b00ff' : ';fill: white'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "path4211"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": true,
+      "dashboard": "dashboard4"
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g772"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "my-flat/kitchen_light",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "my-flat/kitchen_light",
+      "value": "(val) ? ';fill:#fec901ff' : ';fill:white'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "path2876"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "my-flat/bathroom_light",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "my-flat/bathroom_light",
+      "value": "(val) ? ';fill:#fec901ff' : ';fill:white'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "path2904"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "my-flat/breadroom_light",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "my-flat/breadroom_light",
+      "value": "(val) ? ';fill:#fec901ff' : ';fill:white'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "path2932"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "my-flat/questroom_light",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "my-flat/questroom_light",
+      "value": "(val) ? ';fill:#fec901ff' : ';fill:white'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "path2960"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "my-flat/hall_motion",
+      "value": " (val) ? ';fill: #ff9b00' : ';fill: #517fab'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "path17138"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "my-flat/kitchen_motion",
+      "value": " (val) ? ';fill: #ff9b00' : ';fill: #517fab'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "path2870"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "my-flat/bathroom_motion",
+      "value": " (val) ? ';fill: #ff9b00' : ';fill: #517fab'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "path2898"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "my-flat/breadroom_motion",
+      "value": " (val) ? ';fill: #ff9b00' : ';fill: #517fab'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "path2926"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "my-flat/questroom_motion",
+      "value": " (val) ? ';fill: #ff9b00' : ';fill: #517fab'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "path2954"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "my-flat/kitchen_window",
+      "value": " (val) ? ';fill: #ff9b00' : ';fill: #517fab'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "path6028"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "my-flat/breadroom_window",
+      "value": " (val) ? ';fill: #ff9b00' : ';fill: #517fab'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "path6028-7-5"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "my-flat/questroom_window",
+      "value": " (val) ? ';fill: #ff9b00' : ';fill: #517fab'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "path6028-7"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "my-flat/kitchen_ac",
+      "value": " (val) ? ';fill: #1f588d' : ';fill: #517fab'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "path5480-3-6"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "my-flat/bathroom_fan",
+      "value": " (val) ? ';fill: #1f588d' : ';fill: #517fab'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "path11289"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "my-flat/breadroom_ac",
+      "value": " (val) ? ';fill: #1f588d' : ';fill: #517fab'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "path5480"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "my-flat/questroom_ac",
+      "value": " (val) ? ';fill: #1f588d' : ';fill: #517fab'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "path5480-3"
+  }
+]

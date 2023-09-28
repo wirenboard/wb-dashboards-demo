@@ -1,0 +1,159 @@
+[
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": true,
+      "dashboard": "dashboard3"
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g772"
+  },
+  {
+    "read": {
+      "enable": true,
+      "channel": "panel-logic/SettingTemp",
+      "value": "val.toFixed(1)+' °C'"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text1929"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "panel-logic/TempUp",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g1258"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "panel-logic/TempDown",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g1266"
+  }
+]

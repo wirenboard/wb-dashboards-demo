@@ -439,23 +439,39 @@
       "value": "val"
     },
     "write": {
-      "enable": true,
+      "enable": false,
       "channel": "wb-mr6c_3/K1",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
     },
     "visible": {
       "enable": false,
       "channel": null,
       "condition": "==",
-      "value": null
+      "value": ""
     },
     "style": {
       "enable": true,
       "channel": "wb-mr6c_3/K1",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
     }
   },
   {
@@ -466,23 +482,39 @@
       "value": "val"
     },
     "write": {
-      "enable": true,
+      "enable": false,
       "channel": "wb-mr6c_3/K2",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
     },
     "visible": {
       "enable": false,
       "channel": null,
       "condition": "==",
-      "value": null
+      "value": ""
     },
     "style": {
       "enable": true,
       "channel": "wb-mr6c_3/K2",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
     }
   },
   {
@@ -493,23 +525,39 @@
       "value": "val"
     },
     "write": {
-      "enable": true,
+      "enable": false,
       "channel": "wb-mr6c_3/K3",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
     },
     "visible": {
       "enable": false,
       "channel": null,
       "condition": "==",
-      "value": null
+      "value": ""
     },
     "style": {
       "enable": true,
       "channel": "wb-mr6c_3/K3",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
     }
   },
   {
@@ -520,131 +568,229 @@
       "value": "val"
     },
     "write": {
-      "enable": true,
+      "enable": false,
       "channel": "wb-mr6c_3/K4",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
     },
     "visible": {
       "enable": false,
       "channel": null,
       "condition": "==",
-      "value": null
+      "value": ""
     },
     "style": {
       "enable": true,
       "channel": "wb-mr6c_3/K4",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
     }
   },
   {
-    "id": "f1876a2f066e",
-    "read": {
+    "write": {
       "enable": false,
       "channel": null,
-      "value": "val"
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
     },
+    "click": {
+      "enable": true,
+      "dashboard": "dashboard9"
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g49584"
+  },
+  {
     "write": {
       "enable": true,
       "channel": "wb-mr6c_3/K1",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
     },
     "visible": {
       "enable": false,
       "channel": null,
       "condition": "==",
-      "value": null
+      "value": ""
     },
-    "style": {
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
       "enable": false,
       "channel": null,
-      "value": null
-    }
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g6955"
   },
   {
-    "id": "f1876a2f2b97",
-    "read": {
-      "enable": false,
-      "channel": null,
-      "value": "val"
-    },
     "write": {
       "enable": true,
       "channel": "wb-mr6c_3/K2",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
     },
     "visible": {
       "enable": false,
       "channel": null,
       "condition": "==",
-      "value": null
+      "value": ""
     },
-    "style": {
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
       "enable": false,
       "channel": null,
-      "value": null
-    }
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g34252"
   },
   {
-    "id": "f1876a2f5a5a",
-    "read": {
-      "enable": false,
-      "channel": null,
-      "value": "val"
-    },
     "write": {
       "enable": true,
       "channel": "wb-mr6c_3/K3",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
     },
     "visible": {
       "enable": false,
       "channel": null,
       "condition": "==",
-      "value": null
+      "value": ""
     },
-    "style": {
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
       "enable": false,
       "channel": null,
-      "value": null
-    }
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g34268"
   },
   {
-    "id": "f1876a2f7dcf",
-    "read": {
-      "enable": false,
-      "channel": null,
-      "value": "val"
-    },
     "write": {
       "enable": true,
       "channel": "wb-mr6c_3/K4",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
     },
     "visible": {
       "enable": false,
       "channel": null,
       "condition": "==",
-      "value": null
+      "value": ""
     },
-    "style": {
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
       "enable": false,
       "channel": null,
-      "value": null
-    }
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g34260"
   }
 ]
