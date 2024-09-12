@@ -56,6 +56,10 @@ defineVirtualDevice("hmi-demo", {
         type: "switch",
         value: false,
       },
+      turn_off_all: {
+        title: {'en': 'Turn Off All', 'ru': 'Выключить всё'},
+        type: "pushbutton",
+      },      
     }
 });
 
@@ -141,7 +145,7 @@ defineRule({
   then: function (newValue, devName, cellName) {
     switch (cellName){
       case "K1":
-        dev["hmi-demo"]["light2_state"] = newValue;
+        dev["hmi-demo"]["light2_state"] = newValue;        
         break
       case "light2_state":
         dev[relayDevice]["K1"] = newValue;
@@ -153,6 +157,17 @@ defineRule({
         dev[relayDevice]["K2"] = newValue;
         break
     }
+  }
+});
+
+// Мастер-выключатель
+defineRule({
+  whenChanged: ["hmi-demo/turn_off_all"],
+  then: function (newValue, devName, cellName) {
+    dev[dimmerLedDevice]["RGB Strip"] = false;
+    dev[dimmerLightDevice]["K1"] = false;
+    dev[relayDevice]["K1"] = false;
+    dev[relayDevice]["K2"] = false;
   }
 });
 
