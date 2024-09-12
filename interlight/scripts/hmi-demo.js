@@ -1,7 +1,8 @@
-var dimmerLedDevice = "wb-led_1"; // mqtt-идентификатор диммера WB-LED
-var dimmerLightDevice = "wb-mdm3_57"; // mqtt-идентификатор диммера WB-MDM3
-var relayDevice = "wb-mr6cv3_227"; // mqtt-идентификатор реле WB-MR6C
-var masterButtonFullPath = "wb-mdm3_57/Input 6" // путь к контролу, куда подключена кнопка «Мастер-выключатель».
+var dimmerLedDevice = "wb-led_1";
+var dimmerLightDevice = "wb-mdm3_57";
+var relayDevice = "wb-mr6cv3_227";
+var mswDevice= "wb-msw-v3_162";
+var masterButtonFullPath = "wb-mdm3_57/Input 6";
 
 defineVirtualDevice("hmi-demo", {
     title: {'en': 'HMI Demo', 'ru': 'HMI Демо'} ,
@@ -59,7 +60,43 @@ defineVirtualDevice("hmi-demo", {
       turn_off_all: {
         title: {'en': 'Turn Off All', 'ru': 'Выключить всё'},
         type: "pushbutton",
-      },      
+      },
+      msw_temperature: {
+        title: {'en': 'MSW Temperature', 'ru': 'Температура'},
+        type: "value",
+        value: 0,
+        units: "deg C"
+      },
+      msw_humidity: {
+        title: {'en': 'MSW Humidity', 'ru': 'Влажность воздуха'},
+        type: "value",
+        value: 0,
+        units: "%, RH"
+      },
+      msw_co2: {
+        title: {'en': 'MSW CO2', 'ru': 'CO2'},
+        type: "value",
+        value: 0,
+        units: "ppm"
+      },
+      msw_illuminance: {
+        title: {'en': 'MSW Illuminance', 'ru': 'Освещённость'},
+        type: "value",
+        value: 0,
+        units: "lx"
+      },
+      msw_sound_level: {
+        title: {'en': 'MSW Sound Level', 'ru': 'Шум'},
+        type: "value",
+        value: 0,
+        units: "dB"
+      },
+      msw_current_motion: {
+        title: {'en': 'MSW Current Motion', 'ru': 'Движение'},
+        type: "value",
+        value: 0,
+        units: ""
+      },
     }
 });
 
@@ -132,8 +169,6 @@ defineRule({
   }
 });
 
-
-
 // контроль состояния реле
 defineRule({
   whenChanged: [
@@ -145,7 +180,7 @@ defineRule({
   then: function (newValue, devName, cellName) {
     switch (cellName){
       case "K1":
-        dev["hmi-demo"]["light2_state"] = newValue;        
+        dev["hmi-demo"]["light2_state"] = newValue;
         break
       case "light2_state":
         dev[relayDevice]["K1"] = newValue;
@@ -160,16 +195,73 @@ defineRule({
   }
 });
 
+// контроль параметров датчика WB-MSW
+defineRule({
+  whenChanged: mswDevice+"/Temperature",
+  then: function (newValue, devName, cellName) {
+	dev["hmi-demo"]["msw_temperature"] = newValue;
+  }
+});
+
+defineRule({
+  whenChanged: mswDevice+"/Humidity",
+  then: function (newValue, devName, cellName) {
+	dev["hmi-demo"]["msw_humidity"] = newValue;
+  }
+});
+
+defineRule({
+  whenChanged: mswDevice+"/CO2",
+  then: function (newValue, devName, cellName) {
+	dev["hmi-demo"]["msw_co2"] = newValue;
+  }
+});
+
+defineRule({
+  whenChanged: mswDevice+"/Illuminance",
+  then: function (newValue, devName, cellName) {
+	dev["hmi-demo"]["msw_illuminance"] = newValue;
+  }
+});
+
+defineRule({
+  whenChanged: mswDevice+"/Sound Level",
+  then: function (newValue, devName, cellName) {
+	dev["hmi-demo"]["msw_sound_level"] = newValue;
+  }
+});
+
+defineRule({
+  whenChanged: mswDevice+"/Current Motion",
+  then: function (newValue, devName, cellName) {
+	dev["hmi-demo"]["msw_current_motion"] = newValue;
+  }
+});
+
 // Мастер-выключатель
 defineRule({
   whenChanged: ["hmi-demo/turn_off_all", masterButtonFullPath],
   then: function (newValue, devName, cellName) {
+    turn_off_all()
+  }
+});
+
+// Мастер-выключатель по освещённости
+defineRule({
+  whenChanged: ["hmi-demo/msw_illuminance"],
+  then: function (newValue, devName, cellName) {
+    if (newValue < 10){
+      turn_off_all()
+    }
+  }
+});
+
+function turn_off_all(){
     dev[dimmerLedDevice]["RGB Strip"] = false;
     dev[dimmerLightDevice]["K1"] = false;
     dev[relayDevice]["K1"] = false;
     dev[relayDevice]["K2"] = false;
-  }
-});
+}
 
 function convertPalleteToRgbCSS(rgb_pallete){
   var colorComponents = rgb_pallete.split(';')
