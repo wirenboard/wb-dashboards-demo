@@ -119,7 +119,7 @@
       "channel": "wb-led_1/RGB Palette",
       "value": {
         "off": "0",
-        "on": "255;255;0"
+        "on": "255;203;0"
       }
     },
     "click": {

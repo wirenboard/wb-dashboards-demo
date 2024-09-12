@@ -193,5 +193,466 @@
       }
     },
     "id": "rect5"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "hmi-demo/light1_state",
+      "value": "(val)? ';fill: #ffe680':';fill: white'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "path2"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "hmi-demo/light1_state",
+      "value": "(val)? ';stroke: #ffe680':';stroke: white'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "rect3"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "hmi-demo/light1_state",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g4"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "hmi-demo/light1_brightness",
+      "value": {
+        "off": "0",
+        "on": "100"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g3"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "hmi-demo/light1_brightness",
+      "value": {
+        "off": "0",
+        "on": "50"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g5"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "hmi-demo/light1_brightness",
+      "value": {
+        "off": "0",
+        "on": "0"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g9"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "hmi-demo/light1_brightness",
+      "value": "(val==100)? ';stroke: #ffe680':';stroke: white'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "rect2"
+  },
+  {
+    "read": {
+      "enable": false,
+      "channel": null,
+      "value": "val"
+    },
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "hmi-demo/light1_brightness",
+      "value": "(val==100)? ';fill: #ffe680':';fill: white'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text11-5"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "hmi-demo/light1_brightness",
+      "value": "(val==50)? ';stroke: #ffe680':';stroke: white'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "rect4"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "hmi-demo/light1_brightness",
+      "value": "(val==50)? ';fill: #ffe680':';fill: white'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text4"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "hmi-demo/light1_brightness",
+      "value": "(val==0)? ';fill: #ffe680':';fill: white'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "text8"
+  },
+  {
+    "write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": true,
+      "channel": "hmi-demo/light1_brightness",
+      "value": "(val==0)? ';stroke: #ffe680':';stroke: white'"
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "rect8"
   }
 ]

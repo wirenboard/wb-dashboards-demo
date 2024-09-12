@@ -1,6 +1,6 @@
 var dimmerLedDevice = "wb-led_1";
-var dimmerLightDevice = "wb-mdm3_5";
-var relayDevice = "wb-mr6c_2";
+var dimmerLightDevice = "wb-mdm3_57";
+var relayDevice = "wb-mr6cv3_227";
 
 
 defineVirtualDevice("hmi-demo", {
