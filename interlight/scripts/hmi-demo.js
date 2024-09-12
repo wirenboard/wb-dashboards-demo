@@ -1,7 +1,7 @@
-var dimmerLedDevice = "wb-led_1";
-var dimmerLightDevice = "wb-mdm3_57";
-var relayDevice = "wb-mr6cv3_227";
-
+var dimmerLedDevice = "wb-led_1"; // mqtt-идентификатор диммера WB-LED
+var dimmerLightDevice = "wb-mdm3_57"; // mqtt-идентификатор диммера WB-MDM3
+var relayDevice = "wb-mr6cv3_227"; // mqtt-идентификатор реле WB-MR6C
+var masterButtonFullPath = "wb-mdm3_57/Input 6" // путь к контролу, куда подключена кнопка «Мастер-выключатель».
 
 defineVirtualDevice("hmi-demo", {
     title: {'en': 'HMI Demo', 'ru': 'HMI Демо'} ,
@@ -162,7 +162,7 @@ defineRule({
 
 // Мастер-выключатель
 defineRule({
-  whenChanged: ["hmi-demo/turn_off_all"],
+  whenChanged: ["hmi-demo/turn_off_all", masterButtonFullPath],
   then: function (newValue, devName, cellName) {
     dev[dimmerLedDevice]["RGB Strip"] = false;
     dev[dimmerLightDevice]["K1"] = false;
