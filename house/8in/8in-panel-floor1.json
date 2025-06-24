@@ -7,50 +7,39 @@
       "value": "val"
     },
     "write": {
-      "enable": true,
+      "enable": false,
       "channel": "wb-mr6c_3/K1",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
     },
     "visible": {
       "enable": false,
       "channel": null,
       "condition": "==",
-      "value": null
+      "value": ""
     },
     "style": {
       "enable": true,
       "channel": "wb-mr6c_3/K1",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
-    }
-  },
-  {
-    "id": "f1875767980c",
-    "read": {
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
       "enable": false,
       "channel": null,
-      "value": "val"
-    },
-    "write": {
-      "enable": true,
-      "channel": "wb-mr6c_3/K1",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
     }
   },
   {
@@ -61,50 +50,39 @@
       "value": "val"
     },
     "write": {
-      "enable": true,
+      "enable": false,
       "channel": "wb-mr6c_3/K2",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
     },
     "visible": {
       "enable": false,
       "channel": null,
       "condition": "==",
-      "value": null
+      "value": ""
     },
     "style": {
       "enable": true,
       "channel": "wb-mr6c_3/K2",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
-    }
-  },
-  {
-    "id": "f1875768ab12",
-    "read": {
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
       "enable": false,
       "channel": null,
-      "value": "val"
-    },
-    "write": {
-      "enable": true,
-      "channel": "wb-mr6c_3/K2",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
     }
   },
   {
@@ -115,50 +93,39 @@
       "value": "val"
     },
     "write": {
-      "enable": true,
+      "enable": false,
       "channel": "wb-mr6c_3/K3",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
     },
     "visible": {
       "enable": false,
       "channel": null,
       "condition": "==",
-      "value": null
+      "value": ""
     },
     "style": {
       "enable": true,
       "channel": "wb-mr6c_3/K3",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
-    }
-  },
-  {
-    "id": "f18757693c28",
-    "read": {
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
       "enable": false,
       "channel": null,
-      "value": "val"
-    },
-    "write": {
-      "enable": true,
-      "channel": "wb-mr6c_3/K3",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
     }
   },
   {
@@ -169,50 +136,39 @@
       "value": "val"
     },
     "write": {
-      "enable": true,
+      "enable": false,
       "channel": "wb-mr6c_3/K4",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
     },
     "visible": {
       "enable": false,
       "channel": null,
       "condition": "==",
-      "value": null
+      "value": ""
     },
     "style": {
       "enable": true,
       "channel": "wb-mr6c_3/K4",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
-    }
-  },
-  {
-    "id": "f1875769e07c",
-    "read": {
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
       "enable": false,
       "channel": null,
-      "value": "val"
-    },
-    "write": {
-      "enable": true,
-      "channel": "wb-mr6c_3/K4",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
     }
   },
   {
@@ -223,50 +179,39 @@
       "value": "val"
     },
     "write": {
-      "enable": true,
+      "enable": false,
       "channel": "wb-mr6c_3/K5",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
     },
     "visible": {
       "enable": false,
       "channel": null,
       "condition": "==",
-      "value": null
+      "value": ""
     },
     "style": {
       "enable": true,
       "channel": "wb-mr6c_3/K5",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
-    }
-  },
-  {
-    "id": "f187576a7ad3",
-    "read": {
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
       "enable": false,
       "channel": null,
-      "value": "val"
-    },
-    "write": {
-      "enable": true,
-      "channel": "wb-mr6c_3/K5",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
     }
   },
   {
@@ -277,50 +222,39 @@
       "value": "val"
     },
     "write": {
-      "enable": true,
+      "enable": false,
       "channel": "wb-mr6c_3/K6",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
     },
     "visible": {
       "enable": false,
       "channel": null,
       "condition": "==",
-      "value": null
+      "value": ""
     },
     "style": {
       "enable": true,
       "channel": "wb-mr6c_3/K6",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
-    }
-  },
-  {
-    "id": "f187576b12cf",
-    "read": {
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
       "enable": false,
       "channel": null,
-      "value": "val"
-    },
-    "write": {
-      "enable": true,
-      "channel": "wb-mr6c_3/K6",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
     }
   },
   {
@@ -331,50 +265,39 @@
       "value": "val"
     },
     "write": {
-      "enable": true,
+      "enable": false,
       "channel": "wb-mr6c_4/K1",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
     },
     "visible": {
       "enable": false,
       "channel": null,
       "condition": "==",
-      "value": null
+      "value": ""
     },
     "style": {
       "enable": true,
       "channel": "wb-mr6c_4/K1",
       "value": "(val) ? ';fill: #e9e55e' : ';fill: #cad1d9'"
-    }
-  },
-  {
-    "id": "f187576baf2e",
-    "read": {
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
       "enable": false,
       "channel": null,
-      "value": "val"
-    },
-    "write": {
-      "enable": true,
-      "channel": "wb-mr6c_4/K1",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
     }
   },
   {
@@ -385,50 +308,39 @@
       "value": "val"
     },
     "write": {
-      "enable": true,
+      "enable": false,
       "channel": "wb-mr6c_4/K2",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
     },
     "visible": {
       "enable": false,
       "channel": null,
       "condition": "==",
-      "value": null
+      "value": ""
     },
     "style": {
       "enable": true,
       "channel": "wb-mr6c_4/K2",
       "value": "(val) ? ';fill: #e99e5e' : ';fill: #cad1d9'"
-    }
-  },
-  {
-    "id": "f187576be1f6",
-    "read": {
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
       "enable": false,
       "channel": null,
-      "value": "val"
-    },
-    "write": {
-      "enable": true,
-      "channel": "wb-mr6c_4/K2",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
     }
   },
   {
@@ -439,50 +351,39 @@
       "value": "val"
     },
     "write": {
-      "enable": true,
+      "enable": false,
       "channel": "wb-mr6c_4/K3",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
     },
     "visible": {
       "enable": false,
       "channel": null,
       "condition": "==",
-      "value": null
+      "value": ""
     },
     "style": {
       "enable": true,
       "channel": "wb-mr6c_4/K3",
       "value": "(val) ? ';fill: #e99e5e' : ';fill: #cad1d9'"
-    }
-  },
-  {
-    "id": "f187576d33d1",
-    "read": {
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
       "enable": false,
       "channel": null,
-      "value": "val"
-    },
-    "write": {
-      "enable": true,
-      "channel": "wb-mr6c_4/K3",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
     }
   },
   {
@@ -493,50 +394,39 @@
       "value": "val"
     },
     "write": {
-      "enable": true,
+      "enable": false,
       "channel": "wb-mr6c_4/K4",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
     },
     "visible": {
       "enable": false,
       "channel": null,
       "condition": "==",
-      "value": null
+      "value": ""
     },
     "style": {
       "enable": true,
       "channel": "wb-mr6c_4/K4",
       "value": "(val) ? ';fill: #e99e5e' : ';fill: #cad1d9'"
-    }
-  },
-  {
-    "id": "f187576e4295",
-    "read": {
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
       "enable": false,
       "channel": null,
-      "value": "val"
-    },
-    "write": {
-      "enable": true,
-      "channel": "wb-mr6c_4/K4",
       "value": {
-        "on": 1,
-        "off": 0
+        "off": "0",
+        "on": "1"
       }
-    },
-    "visible": {
-      "enable": false,
-      "channel": null,
-      "condition": "==",
-      "value": null
-    },
-    "style": {
-      "enable": false,
-      "channel": null,
-      "value": null
     }
   },
   {
@@ -685,7 +575,7 @@
     },
     "click": {
       "enable": true,
-      "dashboard": "dashboard11"
+      "dashboard": "8in-panel-floor2"
     },
     "style": {
       "enable": false,
@@ -711,5 +601,423 @@
       }
     },
     "id": "g55974"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "wb-mr6c_3/K1",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g47990"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "wb-mr6c_3/K2",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g48272"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g48270"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "wb-mr6c_3/K3",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g48240"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "wb-mr6c_4/K2",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g55120"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "wb-mr6c_3/K5",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g48280"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "wb-mr6c_3/K6",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g48264"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "wb-mr6c_3/K4",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g48256"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "wb-mr6c_4/K3",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g55110"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "wb-mr6c_4/K1",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g48248"
+  },
+  {
+    "write": {
+      "enable": true,
+      "channel": "wb-mr6c_4/K4",
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "click": {
+      "enable": false,
+      "dashboard": null
+    },
+    "style": {
+      "enable": false,
+      "channel": null,
+      "value": ""
+    },
+    "visible": {
+      "enable": false,
+      "channel": null,
+      "condition": "==",
+      "value": ""
+    },
+    "long-press": {
+      "enable": false,
+      "dashboard": null
+    },
+    "long-press-write": {
+      "enable": false,
+      "channel": null,
+      "value": {
+        "off": "0",
+        "on": "1"
+      }
+    },
+    "id": "g54722"
   }
 ]
