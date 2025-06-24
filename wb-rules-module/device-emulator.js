@@ -16,7 +16,7 @@ templates = [
     {
         "type": "WB-RM6C",
         "entities": [
-            { "name": "K {}", "type": "switch", "readonly": false, "count": 6 },
+            { "name": "K{}", "type": "switch", "readonly": false, "count": 6 },
             { "name": "Input {}", "type": "switch", "readonly": true, "count": 6 },
         ]
     },
@@ -30,13 +30,13 @@ templates = [
     {
         "type": "WB-MRWL3",
         "entities": [
-            { "name": "K {}", "type": "switch", "readonly": false, "count": 3 },
+            { "name": "K{}", "type": "switch", "readonly": false, "count": 3 },
         ]
     },
     {
         "type": "WB-MDM3",
         "entities": [
-            { "name": "K {}", "type": "switch", "readonly": false, "count": 3 },
+            { "name": "K{}", "type": "switch", "readonly": false, "count": 3 },
             { "name": "Channel {}", "type": "range", "units": "%", "readonly": false, "min": 0, "max": 100, "count": 3 },
         ]
     },
