@@ -5377,7 +5377,7 @@
            id="g3352"
            transform="translate(-8.4411008,0.06352899)">
           <title
-             id="title5787">ВКЛ/ВЫКЛ</title>
+             id="title5787">ON/OFF</title>
           <path
              id="ellipse4003"
              style="opacity:1;fill:#f88335;fill-opacity:1"
@@ -5398,7 +5398,7 @@
            id="g3342"
            transform="translate(-8.4411008,0.06352899)">
           <title
-             id="title5791">ВКЛ/ВЫКЛ</title>
+             id="title5791">ON/OFF</title>
           <path
              id="ellipse4009"
              style="opacity:1;fill:#f88335;fill-opacity:1"
@@ -5440,7 +5440,7 @@
            id="g3347"
            transform="translate(-8.4411008,0.06352899)">
           <title
-             id="title5789">ВКЛ/ВЫКЛ</title>
+             id="title5789">ON/OFF</title>
           <path
              id="ellipse4021"
              style="opacity:1;fill:#f88335;fill-opacity:1"
@@ -8199,7 +8199,7 @@
            d="m718.69 596.33002a4.1300001 4.1199999.0 01-4.13 4.12 4.1300001 4.1199999.0 01-4.13-4.12 4.1300001 4.1199999.0 014.13-4.12 4.1300001 4.1199999.0 014.13 4.12z"
            data-svg-param-id="f17979e46eec">
           <title
-             id="title5799">ВКЛ/ВЫКЛ</title>
+             id="title5799">ON/OFF</title>
         </path>
         <path
            d="m715.43 599.15a4.41 4.41.0 01-3-1.16 4.13 4.13.0 007.58-2.24 3.82 3.82.0 00-.07-.68 4.65 4.65.0 01-4.51 4.08z"
@@ -8220,7 +8220,7 @@
            d="m732.02001 596.33002a4.1300001 4.1199999.0 01-4.13 4.12 4.1300001 4.1199999.0 01-4.13-4.12 4.1300001 4.1199999.0 014.13-4.12 4.1300001 4.1199999.0 014.13 4.12z"
            data-svg-param-id="f17979e48da5">
           <title
-             id="title3609">ВКЛ/ВЫКЛ</title>
+             id="title3609">ON/OFF</title>
         </path>
         <path
            d="m728.77 599.15a4.46 4.46.0 01-3-1.16 4.13 4.13.0 007.59-2.24 5.05 5.05.0 00-.07-.68 4.65 4.65.0 01-4.52 4.08z"
@@ -8241,7 +8241,7 @@
            d="m745.35998 596.33002a4.1300001 4.1199999.0 01-4.13 4.12 4.1300001 4.1199999.0 01-4.13-4.12 4.1300001 4.1199999.0 014.13-4.12 4.1300001 4.1199999.0 014.13 4.12z"
            data-svg-param-id="f17979e4b794">
           <title
-             id="title5803">ВКЛ/ВЫКЛ</title>
+             id="title5803">ON/OFF</title>
         </path>
         <path
            d="m742.11 599.15a4.42 4.42.0 01-3-1.16 4.13 4.13.0 007.58-2.24 3.82 3.82.0 00-.07-.68 4.64 4.64.0 01-4.51 4.08z"
@@ -10190,7 +10190,7 @@
              id="tspan5781"
              x="211.9052"
              y="361.8046"
-             style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:16px;font-family:ArialMT,Arial;-inkscape-font-specification:'ArialMT, Arial'">ВЫКЛ</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:16px;font-family:ArialMT,Arial;-inkscape-font-specification:'ArialMT, Arial'">OFF</tspan></text>
       </g>
     </g>
     <g
@@ -10340,7 +10340,7 @@
                id="tspan5576"
                x="211.26373"
                y="275.10303"
-               style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:16px;font-family:ArialMT,Arial;-inkscape-font-specification:'ArialMT, Arial'">НОРМА</tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:16px;font-family:ArialMT,Arial;-inkscape-font-specification:'ArialMT, Arial'">NORMAL</tspan></text>
         </g>
         <g
            id="g5590"
@@ -10365,7 +10365,7 @@
                id="tspan5586"
                x="211.26373"
                y="308.95929"
-               style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:16px;font-family:ArialMT,Arial;-inkscape-font-specification:'ArialMT, Arial'">ЗАКРЫТ</tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:16px;font-family:ArialMT,Arial;-inkscape-font-specification:'ArialMT, Arial'">OFF</tspan></text>
         </g>
       </g>
     </g>
@@ -10407,7 +10407,7 @@
                  id="tspan5596"
                  x="211.26373"
                  y="342.4679"
-                 style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:16px;font-family:ArialMT,Arial;-inkscape-font-specification:'ArialMT, Arial'">ВЫКЛ</tspan></text>
+                 style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:16px;font-family:ArialMT,Arial;-inkscape-font-specification:'ArialMT, Arial'">OFF</tspan></text>
           </g>
         </g>
         <g
@@ -10714,7 +10714,7 @@
              transform="rotate(-90)"
              data-svg-param-id="f1798ec4f532">
             <title
-               id="title3607">ВКЛ/ВЫКЛ</title>
+               id="title3607">ON/OFF</title>
           </circle>
           <text
              style="font-style:normal;font-weight:400;font-size:10.5833px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000;fill-opacity:1;stroke:none;stroke-width:.264583"
@@ -10918,7 +10918,7 @@
              transform="rotate(-90)"
              data-svg-param-id="f1798f28e973">
             <title
-               id="title2895">ВКЛ/ВЫКЛ</title>
+               id="title2895">ON/OFF</title>
           </circle>
           <text
              style="font-style:normal;font-weight:400;font-size:10.5833px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000;fill-opacity:1;stroke:none;stroke-width:.264583"
